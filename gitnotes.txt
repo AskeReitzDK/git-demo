@@ -78,5 +78,6 @@ Git Commit
 git commit -m "A really good commit message"
 Commits all files currently in Git's staging area. The -m parameter allows for a commit message directly from the command line.
 
-Clear!
+
+
 clear
