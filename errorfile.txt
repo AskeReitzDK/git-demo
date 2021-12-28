@@ -1,0 +1,83 @@
+GIT Notes
+
+AskeR@LAPTOP-GBRJP13L MINGW64 ~
+$ git config --global user.name "Aske Reitz"
+
+AskeR@LAPTOP-GBRJP13L MINGW64 ~
+$ git config --global user.email "aske.reitz@hotmail.com"
+
+AskeR@LAPTOP-GBRJP13L MINGW64 ~
+$ cat ~/.gitconfig
+
+AskeR@LAPTOP-GBRJP13L MINGW64 ~
+$ cd projects/
+
+AskeR@LAPTOP-GBRJP13L MINGW64 ~/projects
+$ git init git-demo
+
+AskeR@LAPTOP-GBRJP13L MINGW64 ~/projects
+$ cd git-demo
+
+AskeR@LAPTOP-GBRJP13L MINGW64 ~/projects/git-demo (master)
+$ git init
+
+ 
+Lecture Command Listing - Fresh Start
+pwd
+cd projects/
+git init git-demo
+ 
+
+Lecture Command Listing - Start with Existing Project
+pwd
+cd projects/
+cd website/
+ls
+git init
+ 
+
+
+Present Workding Directory
+pwd
+
+Change Directory
+cd folder-name
+
+Git initialization
+git init [project-name]
+project-name parameter is optional. If not supplied, Git will initialize the current directory.
+
+
+Lecture Command Listing
+pwd
+ls
+mate README.md
+ls
+git status
+git add README.md
+git status
+git commit -m "Initial commit"
+clear
+git status
+ 
+
+List
+ls
+Lists files and folders in current directory. Without parameters, will list non-hidden folders and files.
+Git Status
+
+git status
+Shows which files have been modified in the working directory vs Git's staging area.
+
+Git Add
+git add file-name
+Adds the new or newly modified file-name to Git's staging area (index).
+
+Git Commit
+
+git commit -m "A really good commit message"
+Commits all files currently in Git's staging area. The -m parameter allows for a commit message directly from the command line.
+
+
+
+clear
